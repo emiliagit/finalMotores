@@ -10,9 +10,9 @@ public class timer : MonoBehaviour
     private int seg = 30;
 
     [SerializeField] TextMeshProUGUI tiempo;
-    private int life = 100;
+    //private int life = 100;
 
-    private float restante;
+    public float restante;
     private bool EnMarcha;
 
     private void Awake()

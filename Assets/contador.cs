@@ -16,7 +16,7 @@ public class contador : MonoBehaviour
     private void Start()
     {
         ActualizarContador();
-        GetTotalEnemies();
+        //GetTotalEnemies();
     }
 
     // Llamado cuando una estatua es desbloqueada
@@ -40,8 +40,9 @@ public class contador : MonoBehaviour
     {
         GameObject[] enemy = GameObject.FindGameObjectsWithTag(enemyTag);
         int totalEnemies = enemy.Length;
-        if(totalEnemies < 0 $$ temporizador.restante > 0){
-
+        if (totalEnemies < 0 && temporizador.restante > 0)
+            {
+            gameManager.Instance.ShowWinScreen();
         }
     }
 }
