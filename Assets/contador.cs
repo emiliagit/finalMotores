@@ -1,17 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class contador : MonoBehaviour
 {
-    public int estatuasTotales; 
-    public int estatuasDesbloqueadas = 0; 
-    public Text textoContador;
+    public timer temporizador;
+    public int estatuasTotales;
+    public int estatuasDesbloqueadas = 0;
+    public TextMeshProUGUI textoContador;
+
+    public string enemyTag = "Enemy";
 
     private void Start()
     {
         ActualizarContador();
+        GetTotalEnemies();
     }
 
     // Llamado cuando una estatua es desbloqueada
@@ -27,7 +32,16 @@ public class contador : MonoBehaviour
         int estatuasRestantes = estatuasTotales - estatuasDesbloqueadas;
         if (textoContador != null)
         {
-            textoContador.text = "Estatuas restantes: " + estatuasRestantes.ToString();
+            textoContador.text = "Misiones: " + estatuasRestantes.ToString();
+        }
+    }
+
+    void UpdateEnemiesCount()
+    {
+        GameObject[] enemy = GameObject.FindGameObjectsWithTag(enemyTag);
+        int totalEnemies = enemy.Length;
+        if(totalEnemies < 0 $$ temporizador.restante > 0){
+
         }
     }
 }

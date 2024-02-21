@@ -30,13 +30,9 @@ public class timer : MonoBehaviour
             if (restante < 1)
             {
                 EnMarcha = true;
+                //gameManager.Instance.ShowGameOverScreen();
             }
-            if (restante <= 0 && life >= 1)
-            {
-                EnMarcha = false;
-                gameManager.Instance.ShowWinScreen();
 
-            }
 
             int tempMin = Mathf.FloorToInt(restante / 60);
             int tempSeg = Mathf.FloorToInt(restante % 60);
