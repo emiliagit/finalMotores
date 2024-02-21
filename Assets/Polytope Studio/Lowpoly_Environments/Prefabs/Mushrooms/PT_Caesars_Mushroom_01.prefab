@@ -96,4 +96,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c10706d67795e44bdfff33255cf811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadDeVida: 10
+  cantidadDeVida: 3
