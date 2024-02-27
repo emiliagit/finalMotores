@@ -15,7 +15,6 @@ public class player : MonoBehaviour
     void Update()
     {
 
-
         float MovAdelanteAtras = Input.GetAxis("Vertical") * moveSpeed;
         float MovIzqDer = Input.GetAxis("Horizontal") * moveSpeed;
 
@@ -27,6 +26,17 @@ public class player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.lockState = CursorLockMode.None;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("colision detectada");
+
+        if (collision.gameObject.TryGetComponent(out spawner spawn))
+        {
+            Debug.Log("componente encontrado");
+            spawn.Spawn();
         }
     }
 }

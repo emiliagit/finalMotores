@@ -2970,10 +2970,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.5422363
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0.042236328, y: 0, z: 0}
 --- !u!23 &1074879255
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3032,14 +3032,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074879253}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 484.3, y: 18.92, z: 417.81}
+  m_LocalRotation: {x: -0, y: -0.99997044, z: -0, w: 0.0076981634}
+  m_LocalPosition: {x: 483.6, y: 20.7, z: 373.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963194228}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -179.118, z: 0}
 --- !u!114 &1074879258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5257,6 +5257,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 53964455}
     m_Modifications:
+    - target: {fileID: 1290274318652691898, guid: 0f3d14a9a6b2ceb469c15d151552a614, type: 3}
+      propertyPath: RadioMaximo
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290274318652691898, guid: 0f3d14a9a6b2ceb469c15d151552a614, type: 3}
+      propertyPath: radioMinimo
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290274318652691898, guid: 0f3d14a9a6b2ceb469c15d151552a614, type: 3}
+      propertyPath: enemyPrefab.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290274318652691898, guid: 0f3d14a9a6b2ceb469c15d151552a614, type: 3}
+      propertyPath: enemyPrefab.Array.data[4]
+      value: 
+      objectReference: {fileID: 5446477390807014373, guid: b713585f24f940f4eadb10319818ef40, type: 3}
     - target: {fileID: 2804321427668277467, guid: 0f3d14a9a6b2ceb469c15d151552a614, type: 3}
       propertyPath: m_Name
       value: PT_Menhir_Rock_02
@@ -5300,6 +5316,10 @@ PrefabInstance:
     - target: {fileID: 3287948611943350881, guid: 0f3d14a9a6b2ceb469c15d151552a614, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534206863423630284, guid: 0f3d14a9a6b2ceb469c15d151552a614, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6769,10 +6789,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16fe9785a76a83d40adffd44cb47cb3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  temporizador: {fileID: 0}
   estatuasTotales: 6
   estatuasDesbloqueadas: 0
   textoContador: {fileID: 634791161}
+  estatuasRestantes: 0
   enemyTag: Enemy
 --- !u!114 &2137019445
 MonoBehaviour:
@@ -6789,7 +6809,7 @@ MonoBehaviour:
   jugador: {fileID: 1074879257}
   Misiones:
   - {fileID: 2015738911}
-  BrujulaUI: {fileID: 440506946}
+  brujulaImage: {fileID: 0}
 --- !u!1001 &4389840365375380943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6847,6 +6867,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5228c984e5be7284d8d83c18096254dd, type: 3}
+--- !u!1001 &6119603975733247462
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 958745142335686053, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_Name
+      value: LittleGhost_LP (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 483.32394
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.889503
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 410.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 958745142335686072, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
 --- !u!1001 &6347053971400736608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6924,3 +7001,4 @@ SceneRoots:
   - {fileID: 1842292070}
   - {fileID: 411832705}
   - {fileID: 221154556}
+  - {fileID: 6119603975733247462}
