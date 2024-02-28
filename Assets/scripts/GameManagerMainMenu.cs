@@ -7,7 +7,7 @@ public class GameManagerMainMenu : MonoBehaviour
 {
     public GameObject tutorialCanvas;
 
-    private bool tutorialActive = false;
+    //private bool tutorialActive = false;
 
 
 

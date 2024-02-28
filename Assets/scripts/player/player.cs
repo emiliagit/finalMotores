@@ -31,11 +31,9 @@ public class player : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("colision detectada");
-
+        
         if (collision.gameObject.TryGetComponent(out spawner spawn))
         {
-            Debug.Log("componente encontrado");
             spawn.Spawn();
         }
     }

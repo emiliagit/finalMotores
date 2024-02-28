@@ -47,11 +47,6 @@ public class gameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
     }
 
-    public void WinRestart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Time.timeScale = 1f;
-    }
     public void RestartScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
