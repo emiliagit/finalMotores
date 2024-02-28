@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class gameManager : MonoBehaviour
 {
     [SerializeField] private GameObject GameOverScreen;
-    //[SerializeField] private GameObject WinScreen;
+    [SerializeField] private GameObject WinScreen;
 
     public cameraMovement controlCamera;
 
@@ -27,7 +27,7 @@ public class gameManager : MonoBehaviour
     private void Start()
     {
         GameOverScreen.SetActive(false);
-        //WinScreen.SetActive(false);
+        WinScreen.SetActive(false);
     }
     public void ShowGameOverScreen()
     {
@@ -58,10 +58,6 @@ public class gameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void Salir ()
-    {
-        Application.Quit();
-    }
 
     public void MenuPrincipal ()
     {
