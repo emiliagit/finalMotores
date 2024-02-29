@@ -10,6 +10,9 @@ public class FollowPlayer : MonoBehaviour
 
     GameObject player;
 
+    private int daño = 10;
+    private int Salud = 100;
+
 
     void Update()
     {
@@ -42,5 +45,16 @@ public class FollowPlayer : MonoBehaviour
         }
     }
 
-    
+
+    public void TakeDaño()
+    {
+        Salud -= daño;
+
+        if (Salud == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 }

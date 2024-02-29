@@ -6,7 +6,7 @@ public class Espada : MonoBehaviour
 {
 
     private Animator WeaponAnimator;
-    private enemyLife EnemyLife;
+    private FollowPlayer EnemyLife;
 
     private bool isAnimationPlaying = false;
 
@@ -37,8 +37,6 @@ public class Espada : MonoBehaviour
         WeaponAnimator.SetTrigger("desactivar");
         isAnimationPlaying = false;
 
-        yield return new WaitForSeconds(0.5f); // Ajusta este valor según tus necesidades
-        isAnimationPlaying = false;
     }
 
     private void OnCollisionEnter(Collision collision)
