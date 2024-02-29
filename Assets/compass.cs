@@ -15,18 +15,32 @@ public class compass : MonoBehaviour
 
     public bool compassActive = true;
 
+    private Renderer renderizado;
+
+
     private void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").transform;
         FindClosestMision();
+        renderizado = GetComponent<Renderer>();
+
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.Alpha1))
         {
            
             compassActive = true;
+            SetVisibility();
+
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+
+            compassActive = false;
+            SetVisibility();
+
         }
 
         if (compassActive)
@@ -46,6 +60,10 @@ public class compass : MonoBehaviour
         }
 
         
+    }
+    private void SetVisibility()
+    {
+        renderizado.enabled = compassActive;
     }
 
     void FindClosestMision()

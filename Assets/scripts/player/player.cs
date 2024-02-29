@@ -5,6 +5,7 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
     public float moveSpeed = 10.0f;
+    private vidaJugador VidaPlayer;
 
     void Start()
     {
@@ -35,6 +36,11 @@ public class player : MonoBehaviour
         if (collision.gameObject.TryGetComponent(out spawner spawn))
         {
             spawn.Spawn();
+        }
+
+        if( collision.gameObject.CompareTag("Enemy"))
+        {
+            VidaPlayer.RecibirDaño();
         }
     }
 }

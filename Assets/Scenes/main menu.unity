@@ -1904,12 +1904,13 @@ MonoBehaviour:
   m_text: '.Desbloquea las misiones y elimina a los enemigos antes que se termine
     el tiempo!
 
-    .Destruye los hongos para recuperar vida!
+    .Sigue la flecha para encontrar las misiones("E" Activar, "R"
+    Desactiar)
 
-    .Para utilizar
-    el arma presiona la tecla "E".
+    .Destruye los hongos para recuperar vida!.
 
-    .Ten cuidado con los animales del bosque'
+    .Ten cuidado
+    con los animales del bosque'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}

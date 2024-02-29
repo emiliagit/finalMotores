@@ -41,4 +41,6 @@ public class FollowPlayer : MonoBehaviour
             Debug.LogWarning("El jugador no está asignado en el script.");
         }
     }
+
+    
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class vidaJugador : MonoBehaviour
 {
-    public int daño = 20;
+    public int daño = 10;
     public Slider slider;
     public int life = 100;
 
@@ -15,13 +15,13 @@ public class vidaJugador : MonoBehaviour
         slider.value = life;
     }
 
-    public void RecibirDaño(int Damage)
+    public void RecibirDaño()
     {
         life -= daño;
 
         if (life <= 0)
         {
-            //GameManager.Instance.ShowGameOverScreen();
+            gameManager.Instance.ShowGameOverScreen();
         }
 
     }
