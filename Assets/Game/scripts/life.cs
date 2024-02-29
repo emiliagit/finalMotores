@@ -6,13 +6,14 @@ public class life : MonoBehaviour
 {
     public int cantidadDeVida = 3; // La cantidad de vida que se agregará al jugador
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
+        
         // Verificar si el objeto colisionado es el jugador 
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Espada"))
         {
             // Obtener el componente de vida del jugador
-            vidaJugador vidaJugador = other.GetComponent<vidaJugador>();
+            vidaJugador vidaJugador = collision.gameObject.GetComponent<vidaJugador>();
 
             // Asegurarse de que el componente de vida del jugador existe
             if (vidaJugador != null)
@@ -25,4 +26,6 @@ public class life : MonoBehaviour
             }
         }
     }
+
+   
 }
