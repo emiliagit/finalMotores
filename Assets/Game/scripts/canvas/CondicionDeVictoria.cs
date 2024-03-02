@@ -22,8 +22,14 @@ public class CondicionDeVictoria : MonoBehaviour
         enemiesEliminated++;
 
         if (enemiesEliminated >= totalEnemies && temporizador.restante > 0 && Contador.GetTotalTotems() == 0)
-        {
-            gameManager.Instance.ShowWinScreen();
+        { 
+            SpawnFIndeJuego spawnFinDeJuego = FindObjectOfType<SpawnFIndeJuego>(); 
+
+            if(spawnFinDeJuego != null)
+            {
+                spawnFinDeJuego.enabled = true;
+            }
+
         }
     }
 

@@ -62,9 +62,8 @@ public class FollowPlayer : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            vidaJugador vidaPlayer = collision.gameObject.GetComponent<vidaJugador>();
-            Debug.Log("Colision detectada");
-            vidaPlayer.RecibirDanio(10);
+            collision.gameObject.GetComponent<vidaJugador>().RecibirDanio(10f);
+            Debug.Log("Colision detectada"); 
         }
     }
 
