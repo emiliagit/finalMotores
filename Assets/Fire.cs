@@ -5,28 +5,15 @@ using UnityEngine;
 public class Fire : MonoBehaviour
 {
 
-    public float velocidad = 10f; // Velocidad del proyectil
-    public float tiempoVida = 2f; // Tiempo de vida antes de autodestruirse
-    public GameObject efectoImpacto; // Prefab del efecto al impactar
+    public GameObject firePrefab;
 
-    private void Start()
+        private void OnCollisionEnter(Collision collision)
     {
-        // Aplicamos una velocidad inicial al proyectil
-        GetComponent<Rigidbody>().velocity = transform.forward * velocidad;
-
-        // Destruimos el proyectil después de un tiempo
-        Destroy(gameObject, tiempoVida);
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        // Si colisionamos con algo, instanciamos el efecto de impacto
-        if (efectoImpacto != null)
+        if (collision.gameObject.TryGetComponent(out FollowPlayer enemy))
         {
-            Instantiate(efectoImpacto, transform.position, Quaternion.identity);
+            enemy.TakeDaño();
+            Instantiate(firePrefab, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
-
-        // Destruimos el proyectil al impactar
-        Destroy(gameObject);
     }
 }
