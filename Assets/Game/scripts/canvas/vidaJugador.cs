@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class vidaJugador : MonoBehaviour
 {
-    public int daño = 10;
     public Slider slider;
     public int life = 100;
+
+    public TextMeshProUGUI hpText;
+
 
 
     private void Update()
@@ -15,20 +18,38 @@ public class vidaJugador : MonoBehaviour
         slider.value = life;
     }
 
-    public void RecibirDaño()
+    public void RecibirDanio(int dmg)
     {
-        life -= daño;
+        life -= dmg;
+        UpdateHealthUI();
+
 
         if (life <= 0)
         {
             gameManager.Instance.ShowGameOverScreen();
         }
-
     }
 
-    public void AgregarVida(int cantidad)
+    //public void RecibirDaño(int daño)
+    //{
+    //    life -= daño;
+    //    Debug.Log("Vida restada");
+    //    UpdateHealthUI();
+
+
+
+    //}
+
+    void UpdateHealthUI()
     {
-        life += cantidad;
-        // Aquí puedes agregar lógica adicional, como límites de vida máxima, efectos visuales, etc.
+        life = Mathf.Clamp(life, 0, 100);
+        slider.value = life;
+        hpText.text = life.ToString() + "%";
     }
+
+    //public void AgregarVida(int cantidad)
+    //{
+    //    life += cantidad;
+    //    // Aquí puedes agregar lógica adicional, como límites de vida máxima, efectos visuales, etc.
+    //}
 }

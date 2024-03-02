@@ -11,7 +11,7 @@ public class Fire : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent(out FollowPlayer enemy))
         {
-            enemy.TakeDaño();
+            enemy.TakeDaño(10);
             Instantiate(firePrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

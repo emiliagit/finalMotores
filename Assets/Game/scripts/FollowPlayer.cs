@@ -8,9 +8,11 @@ public class FollowPlayer : MonoBehaviour
     private Transform jugador;
     private float velocidad = 2f;
 
+    private vidaJugador VidaPlayer;
+
+
     GameObject player;
 
-    private int daño = 10;
     private int Salud = 100;
 
 
@@ -46,13 +48,22 @@ public class FollowPlayer : MonoBehaviour
     }
 
 
-    public void TakeDaño()
+    public void TakeDaño(int daño)
     {
         Salud -= daño;
 
         if (Salud == 0)
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Colision detectada");
+            VidaPlayer.RecibirDanio(10);
         }
     }
 

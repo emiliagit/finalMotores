@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Espada
   - FinDeJuego
+  - Fire
+  - slider
   layers:
   - Default
   - TransparentFX

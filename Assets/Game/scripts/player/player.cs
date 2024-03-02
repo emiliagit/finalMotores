@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class player : MonoBehaviour
@@ -38,9 +39,13 @@ public class player : MonoBehaviour
             spawn.Spawn();
         }
 
-        if( collision.gameObject.CompareTag("Enemy"))
-        {
-            VidaPlayer.RecibirDaño();
-        }
+        //if( collision.gameObject.CompareTag("Enemy"))
+
+        //{
+        //    Debug.Log("Colision detectada");
+        //    VidaPlayer.RecibirDaño();
+        //}
     }
+
+    
 }

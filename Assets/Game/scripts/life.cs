@@ -9,8 +9,7 @@ public class life : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         
-        // Verificar si el objeto colisionado es el jugador 
-        if (collision.gameObject.CompareTag("Espada"))
+        if (collision.gameObject.CompareTag("Fire"))
         {
             // Obtener el componente de vida del jugador
             vidaJugador vidaJugador = collision.gameObject.GetComponent<vidaJugador>();
@@ -19,7 +18,7 @@ public class life : MonoBehaviour
             if (vidaJugador != null)
             {
                 // Incrementar la vida del jugador
-                vidaJugador.AgregarVida(cantidadDeVida);
+                //vidaJugador.AgregarVida(cantidadDeVida);
 
                 // destruir el objeto: Destroy(gameObject);
                 Destroy(gameObject);
