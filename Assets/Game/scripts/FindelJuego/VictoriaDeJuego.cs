@@ -14,7 +14,6 @@ public class VictoriaDeJuego : MonoBehaviour
     private float currentHoldTime = 0.0f;
     private bool victoryAchieved = false;
 
-    public TextMeshProUGUI countdownText;
 
 
 
@@ -39,14 +38,9 @@ public class VictoriaDeJuego : MonoBehaviour
             currentHoldTime = 0.0f;
         }
 
-        UpdateCountdownText();
     }
 
-    void UpdateCountdownText()
-    {
-        float remainingTime = Mathf.Max(0f, requiredHoldTime - currentHoldTime);
-        countdownText.text = $"Tiempo restante: {remainingTime:F1} s";
-    }
+  
 
 
 }
