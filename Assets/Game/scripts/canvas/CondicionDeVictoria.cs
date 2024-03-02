@@ -21,7 +21,7 @@ public class CondicionDeVictoria : MonoBehaviour
     {
         enemiesEliminated++;
 
-        if (enemiesEliminated >= totalEnemies && temporizador.restante > 0 && Contador.estatuasRestantes == 0)
+        if (enemiesEliminated >= totalEnemies && temporizador.restante > 0 && Contador.GetTotalTotems() == 0)
         {
             gameManager.Instance.ShowWinScreen();
         }

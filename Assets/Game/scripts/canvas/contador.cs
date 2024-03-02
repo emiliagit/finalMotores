@@ -7,37 +7,31 @@ using UnityEngine.UI;
 
 public class contador : MonoBehaviour
 {
-    public int estatuasTotales;
-    public int estatuasDesbloqueadas = 0;
-    public TextMeshProUGUI textoContador;
-
-    public float estatuasRestantes;
-
-    public string enemyTag = "Enemy";
-
+    public TextMeshProUGUI MisionCount;
+    public string MisionTag = "Misiones";
     private void Start()
     {
-
-        ActualizarContador();
-        EstatuaDesbloqueada();
-
+        GetTotalTotems();
+    }
+    void Update()
+    {
+        UpdateTotemCountText();
     }
 
-    // Llamado cuando una estatua es desbloqueada
-    public void EstatuaDesbloqueada()
+    void UpdateTotemCountText()
     {
-        estatuasDesbloqueadas++;
-        ActualizarContador();
-    }
-
-    // Actualiza el texto en pantalla para mostrar la cantidad de estatuas restantes por desbloquear
-    public void ActualizarContador()
-    {
-        estatuasRestantes = estatuasTotales - estatuasDesbloqueadas;
-        if (textoContador != null)
+        GameObject[] mision = GameObject.FindGameObjectsWithTag(MisionTag);
+        int TotalMisiones = mision.Length;
+        if (TotalMisiones > 0)
         {
-            textoContador.text = "Misiones: " + estatuasRestantes.ToString();
+            MisionCount.text = "Misions Remains: " + TotalMisiones;
         }
+        else { MisionCount.text = "All Misions completed!"; }
+    }
+    public int GetTotalTotems()
+    {
+        GameObject[] mision = GameObject.FindGameObjectsWithTag(MisionTag);
+        return mision.Length;
     }
 
 }
