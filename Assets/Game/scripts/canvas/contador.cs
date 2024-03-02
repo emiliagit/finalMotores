@@ -18,8 +18,9 @@ public class contador : MonoBehaviour
     private void Start()
     {
 
+        ActualizarContador();
         EstatuaDesbloqueada();
-        //ActualizarContador();
+
     }
 
     // Llamado cuando una estatua es desbloqueada

@@ -86,7 +86,11 @@ public class compass : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            GameObject portal = GameObject.FindGameObjectWithTag("Portal");
+            float distance = Vector3.Distance(Player.position, portal.transform.position);
+
+            closestDistance = distance;
+            targetMision= portal.transform;
         }
     }
 

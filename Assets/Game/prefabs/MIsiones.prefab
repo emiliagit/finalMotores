@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 7780879296386692368}
   - component: {fileID: 1290274318652691898}
   - component: {fileID: 5534206863423630284}
-  - component: {fileID: 6992149950922737503}
+  - component: {fileID: 218797836739801421}
   m_Layer: 0
   m_Name: MIsiones
   m_TagString: Misiones
@@ -188,7 +188,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2539825, y: 2.6968136, z: 1.1397095}
   m_Center: {x: -0.19872284, y: 1.1968813, z: 0.06985474}
---- !u!114 &6992149950922737503
+--- !u!114 &218797836739801421
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0567ca174245e9a498ceda23e8a4785e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoNuevo: {fileID: 2714628031575402550, guid: ef4f840a77b795b4f9e4ac3ecb91a152, type: 3}
+  objetoNuevo: {fileID: 0}
 --- !u!1 &6892846152554402458
 GameObject:
   m_ObjectHideFlags: 0
