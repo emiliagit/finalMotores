@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 307957386027642794}
   - component: {fileID: 510734127125717025}
   - component: {fileID: 4152722339697772950}
-  - component: {fileID: 8128607380985746696}
+  - component: {fileID: 1259666055601319344}
   m_Layer: 0
   m_Name: FinDeJuego
   m_TagString: FinDeJuego
@@ -199,7 +199,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2539825, y: 2.6968136, z: 1.1397095}
   m_Center: {x: -0.19872284, y: 1.1968813, z: 0.06985474}
---- !u!114 &8128607380985746696
+--- !u!114 &1259666055601319344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,10 +208,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 905514139946631836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0567ca174245e9a498ceda23e8a4785e, type: 3}
+  m_Script: {fileID: 11500000, guid: 700d290f5c706e84ea0483fe4b3b589d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoNuevo: {fileID: 2714628031575402550, guid: ef4f840a77b795b4f9e4ac3ecb91a152, type: 3}
 --- !u!1 &1728759148564317803
 GameObject:
   m_ObjectHideFlags: 0
