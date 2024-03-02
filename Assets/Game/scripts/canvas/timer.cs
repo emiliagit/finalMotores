@@ -9,6 +9,8 @@ public class timer : MonoBehaviour
     private int min = 2;
     private int seg = 30;
 
+    
+
     [SerializeField] TextMeshProUGUI tiempo;
     //private int life = 100;
 
@@ -27,10 +29,10 @@ public class timer : MonoBehaviour
         if (EnMarcha)
         {
             restante -= Time.deltaTime;
-            if (restante < 1)
+            if (restante < 1 )
             {
                 EnMarcha = true;
-                //gameManager.Instance.ShowGameOverScreen();
+                gameManager.Instance.ShowGameOverScreen();
             }
 
 
