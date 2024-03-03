@@ -8,12 +8,10 @@ public class FollowPlayer : MonoBehaviour
     private Transform jugador;
     private float velocidad = 2f;
 
-    //private vidaJugador VidaPlayer;
 
 
     GameObject player;
 
-    private int Salud = 100;
 
 
     void Update()
@@ -48,15 +46,7 @@ public class FollowPlayer : MonoBehaviour
     }
 
 
-    public void TakeDaño(int daño)
-    {
-        Salud -= daño;
-
-        if (Salud == 0)
-        {
-            Destroy(gameObject);
-        }
-    }
+  
 
     private void OnCollisionEnter(Collision collision)
     {

@@ -12,6 +12,7 @@ public class VictoriaDeJuego : MonoBehaviour
     public float requiredHoldTime = 3.0f;
 
     private float currentHoldTime = 0.0f;
+
     private bool victoryAchieved = false;
 
 

@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &82696493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
   m_text: '.Desbloquea las misiones y elimina a los enemigos antes que se termine
     el tiempo!
 
-    .Sigue la flecha para encontrar las misiones("E" Activar, "R"
+    .Sigue la flecha para encontrar las misiones("1" Activar, "2"
     Desactiar)
 
     .Destruye los hongos para recuperar vida!.

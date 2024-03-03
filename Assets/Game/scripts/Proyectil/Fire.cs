@@ -9,9 +9,9 @@ public class Fire : MonoBehaviour
 
         private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.TryGetComponent(out FollowPlayer enemy))
+        if (collision.gameObject.TryGetComponent(out EnemyLife enemy))
         {
-            enemy.TakeDaño(10);
+            enemy.TakeDaño(20);
             Instantiate(firePrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
