@@ -104,7 +104,6 @@ GameObject:
   m_Component:
   - component: {fileID: 521587223633677894}
   - component: {fileID: 307957386027642794}
-  - component: {fileID: 510734127125717025}
   - component: {fileID: 4152722339697772950}
   - component: {fileID: 1259666055601319344}
   m_Layer: 0
@@ -160,24 +159,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1313401860752098442}
   m_Enabled: 1
---- !u!114 &510734127125717025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 905514139946631836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61c3c3bd75e07b442a282ac71218421d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 958745142335686053, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
-  - {fileID: 2602231374797837610, guid: 855c90c429434444fbe3ca2b5507ab04, type: 3}
-  - {fileID: 2676405798547930095, guid: 4b5b08dfd84e3c342b10a4e2ed977d48, type: 3}
-  - {fileID: 6007180743642840513, guid: 5a796ed211b2cec468ecadad11acb207, type: 3}
-  - {fileID: 5446477390807014373, guid: b713585f24f940f4eadb10319818ef40, type: 3}
 --- !u!65 &4152722339697772950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -211,6 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 700d290f5c706e84ea0483fe4b3b589d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetKey: 101
+  requiredHoldTime: 3
 --- !u!1 &1728759148564317803
 GameObject:
   m_ObjectHideFlags: 0

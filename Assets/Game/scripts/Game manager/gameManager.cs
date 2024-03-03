@@ -40,8 +40,9 @@ public class gameManager : MonoBehaviour
 
     public void ShowWinScreen()
     {
-        //WinScreen.SetActive(true);
-        
+        WinScreen.SetActive(true);
+        Time.timeScale = 0f;
+
 
         controlCamera.enabled = false;
         Cursor.lockState = CursorLockMode.None;

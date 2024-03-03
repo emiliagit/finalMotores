@@ -8,7 +8,6 @@ public class vidaJugador : MonoBehaviour
 {
     
 
-    public Slider healthSlider;
     public TextMeshProUGUI hpText;
     private float hp;
 
@@ -51,7 +50,6 @@ public class vidaJugador : MonoBehaviour
     void UpdateHealthUI()
     {
         hp = Mathf.Clamp(hp, 0, 100);
-        healthSlider.value = hp;
-        hpText.text = hp.ToString() + "%";
+        hpText.text = "LIfe: " + hp.ToString() + "%";
     }
 }

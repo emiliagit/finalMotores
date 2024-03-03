@@ -12,6 +12,8 @@ public class FollowPlayer : MonoBehaviour
 
     GameObject player;
 
+    private float velocidadRotacion = 2f;
+
 
 
     void Update()
@@ -35,6 +37,9 @@ public class FollowPlayer : MonoBehaviour
         {
             // Calcular la dirección hacia la posición del jugador
             Vector3 direccion = (jugador.position - transform.position).normalized;
+
+            Quaternion rotacionDeseada = Quaternion.LookRotation(direccion);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotacionDeseada, velocidadRotacion * Time.deltaTime);
 
             // Mover el enemigo en dirección al jugador
             transform.Translate(direccion * velocidad * Time.deltaTime);

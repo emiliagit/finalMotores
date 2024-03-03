@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class timer : MonoBehaviour
 {
-    private int min = 2;
+    private int min = 7;
     private int seg = 30;
 
     

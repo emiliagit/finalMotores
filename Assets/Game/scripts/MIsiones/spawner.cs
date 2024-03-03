@@ -5,8 +5,8 @@ using UnityEngine;
 public class spawner : MonoBehaviour
 {
     public GameObject[] enemyPrefab;
-    int minEnemigos = 4;
-    int maxEnemigos = 7;
+    int minEnemigos = 3;
+    int maxEnemigos = 5;
 
     private float radioMinimo = 10f;
     private float RadioMaximo = 25f;

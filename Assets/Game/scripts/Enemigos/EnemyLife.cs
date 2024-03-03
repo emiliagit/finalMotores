@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class EnemyLife : MonoBehaviour
 {
 
-    private int Salud = 100;
-
     public TextMeshProUGUI healthEnemyText;
     private float health;
 
@@ -16,6 +14,8 @@ public class EnemyLife : MonoBehaviour
     private void Start()
     {
         health = 100;
+        UpdateHealthUI();
+
     }
 
 
@@ -27,9 +27,9 @@ public class EnemyLife : MonoBehaviour
 
     public void TakeDaño(int daño)
     {
-        Salud -= daño;
+        health -= daño;
 
-        if (Salud == 0)
+        if (health<= 0)
         {
             Destroy(gameObject);
         }

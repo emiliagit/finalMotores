@@ -13,7 +13,7 @@ public class CondicionDeVictoria : MonoBehaviour
 
     private void Start()
     {
-        totalEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        //totalEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
 
     }
 
@@ -21,11 +21,13 @@ public class CondicionDeVictoria : MonoBehaviour
     {
         enemiesEliminated++;
 
-        if (enemiesEliminated >= totalEnemies && temporizador.restante > 0 && Contador.GetTotalTotems() == 0)
-        { 
-            SpawnFIndeJuego spawnFinDeJuego = FindObjectOfType<SpawnFIndeJuego>(); 
+        if (temporizador.restante > 0 && Contador.GetTotalTotems() == 0)
+        {
 
-            if(spawnFinDeJuego != null)
+            //gameManager.Instance.ShowWinScreen();
+            SpawnFIndeJuego spawnFinDeJuego = FindObjectOfType<SpawnFIndeJuego>();
+
+            if (spawnFinDeJuego != null)
             {
                 spawnFinDeJuego.enabled = true;
             }
