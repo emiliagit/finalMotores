@@ -38,13 +38,6 @@ public class player : MonoBehaviour
         {
             spawn.Spawn();
         }
-
-        //if( collision.gameObject.CompareTag("Enemy"))
-
-        //{
-        //    Debug.Log("Colision detectada");
-        //    VidaPlayer.RecibirDaño();
-        //}
     }
 
     

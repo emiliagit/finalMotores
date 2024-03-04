@@ -57,6 +57,6 @@ public class gameManager : MonoBehaviour
 
     public void MenuPrincipal ()
     {
-        SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -17,7 +17,6 @@ public class Fire : MonoBehaviour
         if (collision.gameObject.TryGetComponent(out EnemyLife enemy))
         {
             enemy.TakeDaño(20);
-            //Destroy(gameObject);
         }
         if (!collision.gameObject.CompareTag("Player"))
         {
