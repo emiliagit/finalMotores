@@ -9733,7 +9733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cdc545e015705640a07b3fbe9fe9357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePrefab: {fileID: 8535936737881654941}
+  firePrefab: {fileID: 1150934714579380, guid: 779aa8c25fbd0e1488637639c9fff976, type: 3}
 --- !u!135 &3622730600149439523
 SphereCollider:
   m_ObjectHideFlags: 0

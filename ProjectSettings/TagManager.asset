@@ -10,6 +10,7 @@ TagManager:
   - FinDeJuego
   - Fire
   - slider
+  - BlackWidow
   layers:
   - Default
   - TransparentFX
