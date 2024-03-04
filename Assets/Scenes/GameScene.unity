@@ -187,6 +187,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -306,6 +310,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.599
       objectReference: {fileID: 0}
+    - target: {fileID: 5035516027814381406, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035516027814381406, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626790512072660807, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626790512072660807, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6623313103888285063, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9833307
@@ -325,6 +345,14 @@ PrefabInstance:
     - target: {fileID: 6623313103888285063, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 20.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460096053075761733, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460096053075761733, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8473401436184186866, guid: 5db93e6325024c749aa2663b9998053d, type: 3}
       propertyPath: m_LocalScale.x
@@ -462,6 +490,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -855,6 +887,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -955,6 +995,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 48bbe660a0a790347aef5be18b4719a5, type: 3}
       propertyPath: m_Name
       value: Vase1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48bbe660a0a790347aef5be18b4719a5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48bbe660a0a790347aef5be18b4719a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48bbe660a0a790347aef5be18b4719a5, type: 3}
       propertyPath: m_LocalScale.y
@@ -1172,6 +1220,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1249,6 +1305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.935
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1409,6 +1469,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 692862785}
     m_Modifications:
+    - target: {fileID: 2037260030951929899, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385972117904089662, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5925433674301824424, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: -144.35898
@@ -1452,6 +1520,14 @@ PrefabInstance:
     - target: {fileID: 6444807355431749394, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
       propertyPath: m_Name
       value: PT_Poppy_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6444807355431749394, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8817714582870616325, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1514,6 +1590,14 @@ PrefabInstance:
     - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1780,6 +1864,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1948,6 +2040,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6ca41d3aa580c7d4dbc3d250753dc00f, type: 3}
       propertyPath: m_Name
       value: StoneTiles3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ca41d3aa580c7d4dbc3d250753dc00f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ca41d3aa580c7d4dbc3d250753dc00f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6ca41d3aa580c7d4dbc3d250753dc00f, type: 3}
       propertyPath: m_LocalScale.y
@@ -2154,6 +2254,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 692862785}
     m_Modifications:
+    - target: {fileID: 2037260030951929899, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385972117904089662, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5925433674301824424, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: -118.87897
@@ -2197,6 +2305,14 @@ PrefabInstance:
     - target: {fileID: 6444807355431749394, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
       propertyPath: m_Name
       value: PT_Poppy_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6444807355431749394, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8817714582870616325, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2417,6 +2533,14 @@ PrefabInstance:
     - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2642,6 +2766,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5000005
@@ -2854,6 +2986,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5000002
@@ -2980,6 +3120,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3146,9 +3290,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 692862785}
     m_Modifications:
+    - target: {fileID: 100000, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
       propertyPath: m_Name
       value: StoneTiles4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3211,6 +3367,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 48bbe660a0a790347aef5be18b4719a5, type: 3}
       propertyPath: m_Name
       value: Vase1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48bbe660a0a790347aef5be18b4719a5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48bbe660a0a790347aef5be18b4719a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48bbe660a0a790347aef5be18b4719a5, type: 3}
       propertyPath: m_LocalScale.y
@@ -3539,6 +3703,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3633,6 +3801,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_Name
       value: Column2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_LocalScale.y
@@ -3737,6 +3913,14 @@ PrefabInstance:
     - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.x
@@ -3966,6 +4150,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Column2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.43179137
@@ -4125,6 +4317,14 @@ PrefabInstance:
     - target: {fileID: 5381386135662024661, guid: 21a364ddeffc797439f2a5721660b0e6, type: 3}
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381386135662024661, guid: 21a364ddeffc797439f2a5721660b0e6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381386135662024661, guid: 21a364ddeffc797439f2a5721660b0e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5381386135662447605, guid: 21a364ddeffc797439f2a5721660b0e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4485,6 +4685,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4663,6 +4867,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -7.025
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4983,9 +5191,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 692862785}
     m_Modifications:
+    - target: {fileID: 100000, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
       propertyPath: m_Name
       value: StoneTiles4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 2d8402e543c9173428264cd2e8429b50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5240,6 +5460,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5264,6 +5492,14 @@ PrefabInstance:
     - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.x
@@ -5337,6 +5573,14 @@ PrefabInstance:
     - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.y
@@ -5572,6 +5816,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5000002
@@ -5760,6 +6012,14 @@ PrefabInstance:
     - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6247,6 +6507,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6559,6 +6827,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5381386135662024661, guid: 21a364ddeffc797439f2a5721660b0e6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381386135662024661, guid: 21a364ddeffc797439f2a5721660b0e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5381386135662447605, guid: 21a364ddeffc797439f2a5721660b0e6, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.5000002
@@ -6627,6 +6903,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 188bd73939d97494194d3673528311a6, type: 3}
       propertyPath: m_Name
       value: MiniTemple
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 188bd73939d97494194d3673528311a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 188bd73939d97494194d3673528311a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 188bd73939d97494194d3673528311a6, type: 3}
       propertyPath: m_LocalScale.y
@@ -6835,6 +7119,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 692862785}
     m_Modifications:
+    - target: {fileID: 2037260030951929899, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385972117904089662, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5925433674301824424, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: -129.95895
@@ -6878,6 +7170,14 @@ PrefabInstance:
     - target: {fileID: 6444807355431749394, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
       propertyPath: m_Name
       value: PT_Poppy_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6444807355431749394, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8817714582870616325, guid: f593bc20677ebf14abd27a4853408c68, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6931,6 +7231,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ab36df6897684d74dafebc76e661d10d, type: 3}
       propertyPath: m_Name
       value: StoneTiles2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ab36df6897684d74dafebc76e661d10d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ab36df6897684d74dafebc76e661d10d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab36df6897684d74dafebc76e661d10d, type: 3}
       propertyPath: m_LocalScale.y
@@ -7292,6 +7600,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7439,6 +7755,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BrokenColumn (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e73c92511cda8604cb267b7c7c9d4855, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e73c92511cda8604cb267b7c7c9d4855, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e73c92511cda8604cb267b7c7c9d4855, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.43179137
@@ -7564,6 +7888,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneTiles3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ca41d3aa580c7d4dbc3d250753dc00f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ca41d3aa580c7d4dbc3d250753dc00f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6ca41d3aa580c7d4dbc3d250753dc00f, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.39370078
@@ -7633,6 +7965,14 @@ PrefabInstance:
     - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.x
@@ -7893,6 +8233,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8123,6 +8471,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.z
       value: 2.5000002
@@ -8298,6 +8654,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a67b15dc61e84a64b80015c4ff435cd2, type: 3}
       propertyPath: m_Name
       value: Vase2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a67b15dc61e84a64b80015c4ff435cd2, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a67b15dc61e84a64b80015c4ff435cd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a67b15dc61e84a64b80015c4ff435cd2, type: 3}
       propertyPath: m_LocalScale.y
@@ -8870,6 +9234,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_03 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022826003607082945, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7022826003607571425, guid: 2c59246f075efff4eacdd481ad75421a, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.4999998
@@ -8973,6 +9345,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_Name
       value: Column2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_LocalScale.y
@@ -9413,6 +9793,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_Name
       value: Column2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_LocalScale.y
@@ -10258,6 +10646,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Modular_Fence_Wood_02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850649989194438716, guid: ae358aa425fe140409d8a560f4492730, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10754,6 +11150,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10901,6 +11301,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11027,6 +11431,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Column2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.43179137
@@ -11125,6 +11537,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ab36df6897684d74dafebc76e661d10d, type: 3}
       propertyPath: m_Name
       value: StoneTiles2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ab36df6897684d74dafebc76e661d10d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ab36df6897684d74dafebc76e661d10d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab36df6897684d74dafebc76e661d10d, type: 3}
       propertyPath: m_LocalScale.y
@@ -11381,6 +11801,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vase2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a67b15dc61e84a64b80015c4ff435cd2, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a67b15dc61e84a64b80015c4ff435cd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a67b15dc61e84a64b80015c4ff435cd2, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.39370078
@@ -11614,6 +12042,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BrokenColumn
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e73c92511cda8604cb267b7c7c9d4855, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e73c92511cda8604cb267b7c7c9d4855, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e73c92511cda8604cb267b7c7c9d4855, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.43179137
@@ -11743,6 +12179,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 188bd73939d97494194d3673528311a6, type: 3}
       propertyPath: m_Name
       value: MiniTemple (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 188bd73939d97494194d3673528311a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 188bd73939d97494194d3673528311a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 188bd73939d97494194d3673528311a6, type: 3}
       propertyPath: m_LocalScale.y
@@ -12105,6 +12549,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_Name
       value: Column2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40c5cdc25bb21a34f935f4ed6bba93f5, type: 3}
       propertyPath: m_LocalScale.y
@@ -12923,6 +13375,10 @@ PrefabInstance:
       propertyPath: patrolZoneCenter
       value: 
       objectReference: {fileID: 1194205465}
+    - target: {fileID: 4365752804413721285, guid: 188f9d8aab4b45c4fb1d7f494d3fcd47, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c20182c49b0a39041a5ddf1fd4a7fd38, type: 2}
     - target: {fileID: 4365752804420625729, guid: 188f9d8aab4b45c4fb1d7f494d3fcd47, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.89685

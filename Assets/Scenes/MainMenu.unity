@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: d0a8be95da1fefb47b2161837e3e92c1, type: 2}
 --- !u!1 &61357099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,13 +1904,12 @@ MonoBehaviour:
   m_text: '.Desbloquea las misiones y elimina a los enemigos antes que se termine
     el tiempo!
 
-    .Sigue la flecha para encontrar las misiones("1" Activar, "2"
-    Desactiar)
+    .Sigue la flecha para encontrar las misiones
 
-    .Destruye los hongos para recuperar vida!.
+    .Destruye los
+    hongos para recuperar vida
 
-    .Ten cuidado
-    con los animales del bosque'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
