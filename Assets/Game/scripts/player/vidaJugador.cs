@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class vidaJugador : MonoBehaviour
 {
-    
 
+    public Slider healthSlider;
     public TextMeshProUGUI hpText;
     private float hp;
 
@@ -20,7 +20,6 @@ public class vidaJugador : MonoBehaviour
 
     private void Update()
     {
-
         if (hp > 100)
         {
             hp = 100; //pone limite a la cantidad de vida
@@ -50,6 +49,7 @@ public class vidaJugador : MonoBehaviour
     void UpdateHealthUI()
     {
         hp = Mathf.Clamp(hp, 0, 100);
+        healthSlider.value = hp;
         hpText.text = "LIfe: " + hp.ToString() + "%";
     }
 }

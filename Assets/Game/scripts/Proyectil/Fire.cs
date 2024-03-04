@@ -14,14 +14,16 @@ public class Fire : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-
-
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.TryGetComponent(out EnemyLife enemy))
         {
-            collision.gameObject.GetComponent<EnemyLife>().TakeDaño(20);
-            Instantiate(firePrefab, transform.position, Quaternion.identity);
+            enemy.TakeDaño(20);
             //Destroy(gameObject);
-
+        }
+        if (!collision.gameObject.CompareTag("Player"))
+        {
+            GameObject fire = Instantiate(firePrefab, transform.position, Quaternion.identity);
+            Destroy(fire, 1f);
+            Destroy(gameObject);
         }
     }
 
