@@ -10,7 +10,7 @@ public class gameManager : MonoBehaviour
     public void Salir()
     {
         
-            Application.Quit();
+        Application.Quit();
         
 
     }
