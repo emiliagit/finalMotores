@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class timer : MonoBehaviour
@@ -32,7 +33,10 @@ public class timer : MonoBehaviour
             if (restante < 1 )
             {
                 EnMarcha = true;
-                gameManager.Instance.ShowGameOverScreen();
+                SceneManager.LoadScene("Derrota");
+
+
+                Cursor.lockState = CursorLockMode.None;
             }
 
 

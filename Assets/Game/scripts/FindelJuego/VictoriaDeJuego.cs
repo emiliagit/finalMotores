@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class VictoriaDeJuego : MonoBehaviour
@@ -11,7 +12,10 @@ public class VictoriaDeJuego : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            gameManager.Instance.ShowWinScreen();
+            SceneManager.LoadScene("Victoria");
+
+
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 

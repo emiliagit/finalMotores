@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class vidaJugador : MonoBehaviour
@@ -27,7 +28,9 @@ public class vidaJugador : MonoBehaviour
 
         if ( hp <= 0 )
         {
-            gameManager.Instance.ShowGameOverScreen();
+            SceneManager.LoadScene("Derrota");
+
+            Cursor.lockState = CursorLockMode.None;
         }
         UpdateHealthUI();
 
